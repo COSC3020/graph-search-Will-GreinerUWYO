@@ -26,6 +26,10 @@ the function and run automatically when you commit through a GitHub action.
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
 
+The complexity for this is based on the number of edges E and the number of nodes V. The worst case scenario needs to travel every single node, meaning that every edge must also be followed. dfs() is called for every node regardless of if it has been visited, and in the worst case, every edge must be traveled, even being rejected.
+
+Therefore the big $\Theta$ for my implementation is $\Theta(V + E)$
+
 ## Bonus
 
 Implement and analyze breadth-first search.
