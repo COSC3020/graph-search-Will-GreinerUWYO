@@ -10,15 +10,16 @@ function dfs(graph, startNode, targetNode, visited, path){
         return null;
     }
     else if(startNode === targetNode){
-        path = path.push(startNode);
+        path.push(startNode);
         return (path);
     
     }
     else{
         visited[startNode] = true;
-        path = path.push(startNode);
+        path.push(startNode);
         for(i = 0; i < graph[startNode].length; i++){
-            dfs(graph, graph[startNode][i], targetNode, visited, path);
+            result = dfs(graph, graph[startNode][i], targetNode, visited, path);
+            if(result){return path;}
         }
     }
 }
