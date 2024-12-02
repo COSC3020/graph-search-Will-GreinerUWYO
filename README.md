@@ -31,7 +31,6 @@ answer, including your reasoning, to this markdown file.
 Implement and analyze breadth-first search.
 
 ## Sources and Plagarism Statement
-Borrowed test code from sin-2pi's repo.
-
+Borrowed test code from sin-2pi's repo. Based the code on the pseudocode of the depth first-search algorithm and used my previous work in other repos, namely Augmenting Path to complete this excercise, no other sources were used.
 
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
